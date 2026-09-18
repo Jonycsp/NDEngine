@@ -1,0 +1,1 @@
+# NDEngine currently has no external dependencies.
