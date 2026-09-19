@@ -14,7 +14,17 @@ def rotate_plane(point, i, j, angle):
     Rotate an N-dimensional point in the plane defined by coordinates i and j.
     
     The input point is not modified. A new point is returned.
+    
+    Raises:
+        ValueError: If i and j refer to the same coordinate.
+        IndexError: If either coordinate index is negative or out of range.
     """
+    
+    if i == j:
+        raise ValueError("Rotation coordinates must be different.")
+    
+    if i < 0 or j < 0 or i >= len(point) or j >= len(point):
+        raise IndexError("Rotation coordinate index out of range.")
     
     rotated = point.copy()
     

@@ -17,5 +17,7 @@ All notable changes to NDEngine will be documented in this file.
 - Pytest-based test suite.
 - Rotation operation representation with immutable `Rotation` objects.
 - Ordered rotation composition through `apply_rotations()`.
+- Validation for rotation coordinate indices.
+- Mathematical property tests for rotations and ordered composition.
 
 ### Planned
