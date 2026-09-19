@@ -141,6 +141,11 @@ Improve the engine as an experimentation environment.
 - [ ] User interface
 - [ ] Configuration system
 - [ ] Save/load scenes
+- [ ] Configurable dimensional controls.
+- [ ] Mouse-based rotation controls.
+- [ ] Precise rotation sliders for individual rotation planes.
+- [ ] Continuous automatic rotation with configurable angular velocities.
+- [ ] Enable or disable rotation planes according to the active dimensionality.
 
 ---
 
