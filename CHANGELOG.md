@@ -15,5 +15,7 @@ All notable changes to NDEngine will be documented in this file.
 - Generic N-dimensional plane rotation function.
 - Initial transformation tests.
 - Pytest-based test suite.
+- Rotation operation representation with immutable `Rotation` objects.
+- Ordered rotation composition through `apply_rotations()`.
 
 ### Planned
