@@ -262,8 +262,3 @@ def test_apply_multiple_rotations():
     
     for actual, target in zip(result, expected):
         assert math.isclose(actual, target, abs_tol=1e-9)
-
-
-
-
-

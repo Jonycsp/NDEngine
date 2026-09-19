@@ -11,9 +11,9 @@ The roadmap is intentionally flexible. The order and scope of later phases may c
 - [x] Create project repository
 - [x] Establish project structure
 - [x] Connect local repository to GitHub
-- [ ] Add MIT license
-- [ ] Establish testing workflow
-- [ ] Establish changelog workflow
+- [x] Add MIT license
+- [x] Establish testing workflow
+- [x] Establish changelog workflow
 
 ---
 
@@ -21,14 +21,14 @@ The roadmap is intentionally flexible. The order and scope of later phases may c
 
 Build the underlying transformation system independently of the renderer.
 
-- [ ] Define N-dimensional point representation
-- [ ] Implement generic plane rotation
-- [ ] Test rotations against the Desmos prototype
-- [ ] Implement composition of rotations
+- [x] Define N-dimensional point representation
+- [x] Implement generic plane rotation
+- [x] Test rotations against the Desmos prototype
+- [x] Implement composition of rotations
 - [ ] Generate all possible rotation planes for N dimensions
-- [ ] Establish coordinate-axis conventions
-- [ ] Establish rotation-direction conventions
-- [ ] Add mathematical unit tests
+- [x] Establish coordinate-axis conventions
+- [x] Establish rotation-direction conventions
+- [x] Add mathematical unit tests
 
 ### Target
 
@@ -41,11 +41,11 @@ A small, reliable transformation system capable of rotating points in arbitrary 
 Implement the mathematical process of reducing dimensionality.
 
 - [ ] Implement orthographic projection
-- [ ] Implement perspective projection
-- [ ] Implement configurable projection distance
-- [ ] Implement N → N-1 projection
-- [ ] Compose multiple projection stages
-- [ ] Test 4D → 3D → 2D projection
+- [x] Implement perspective projection
+- [x] Implement configurable projection distance
+- [x] Implement N → N-1 projection
+- [x] Compose multiple projection stages
+- [x] Test 4D → 3D → 2D projection
 - [ ] Investigate alternative projection methods
 
 ### Target
@@ -114,17 +114,19 @@ A reusable geometry system rather than a collection of hard-coded demonstrations
 
 Remove unnecessary assumptions about dimensionality.
 
-- [ ] Arbitrary-dimensional points
-- [ ] Arbitrary-dimensional rotations
+- [x] Arbitrary-dimensional points
+- [x] Arbitrary-dimensional rotations
 - [ ] Automatic rotation-plane generation
 - [ ] Arbitrary-dimensional hypercubes
-- [ ] General N → N-1 projection
-- [ ] N-dimensional transformation pipelines
+- [x] General N → N-1 projection
+- [x] N-dimensional transformation pipelines
 - [ ] N-dimensional object generation
 
 ### Target
 
 4D becomes one natural case of a genuinely N-dimensional system.
+
+> Several capabilities listed here are being implemented earlier as part of the mathematical core and projection phases. Phase 6 represents their broader integration and generalization rather than their first implementation.
 
 ---
 
